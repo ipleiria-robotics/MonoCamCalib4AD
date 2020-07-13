@@ -1,2 +1,2 @@
 # MonoCamCalib4AD
-Tutorials on monocular camera calibration for Autonomous Driving
+The algorithms used throughout the NAME and URL paper, are available through a Jupyter notebooks here, so one can easily experiment and run then without any further installations.
