@@ -12,9 +12,6 @@ Distorted             |  Undistorted
 :-------------------------:|:-------------------------:
 <img align="left" width="640" height="480" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/1.7mm_original.png">|<img align="left" width="640" height="480" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/1.7mm_undistorted.png">
 
-Distorted             |  Undistorted
-:-------------------------:|:-------------------------:
-![alt text](https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/1.7mm_original.png)|![alt text](https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/1.7mm_undistorted.png)
 ### Fisheye Lens Example
 Distorted             |  Undistorted
 :-------------------------:|:-------------------------:
