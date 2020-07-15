@@ -18,7 +18,7 @@ Distorted             |  Undistorted
 <img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/distorted_img.png">|<img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/undistorted_img.png">
 
 ## Homography Results
-### Fisheye Lens Example
+### Birds-eye View Example
 Distorted             |  Undistorted
 :-------------------------:|:-------------------------:
 <img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/undistorted.png">|<img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/chessboard.png">
