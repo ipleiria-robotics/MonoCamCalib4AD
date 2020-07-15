@@ -30,3 +30,6 @@ The homography relates the transformation between two world planes defined on a 
 Distorted             |  Undistorted
 :-------------------------:|:-------------------------:
 <img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/undistorted.png">|<img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/chessboard.png">
+
+# Conclusions
+The results presented show that it is important to fit the distortion model used for each specific combination of camera and lens, given that some lens and distortion models, although more complete, may be unsuitable for the setup at hand. Beware that this is a very low cost system, with low cost lenses, thus the imperfections that are seen in the borders of the image, which can not be corrected by these models.
