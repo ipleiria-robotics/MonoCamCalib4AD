@@ -10,6 +10,8 @@ The paper mentioned above, summarizes the main camera models used for perspectiv
 ### Wide-angle Lens Example
 
 ### Fisheye Lens Example
-|![alt text](https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/distorted_img.png)|![alt text](https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/undistorted_img.png)|
+Distorted             |  Undistorted
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/distorted_img.png)|![alt text](https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/undistorted_img.png)
 
 ## Homography Results
