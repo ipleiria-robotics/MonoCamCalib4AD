@@ -6,6 +6,17 @@ To start, you must open the [Calibration&BirdsEyeView](https://github.com/ipleir
 The paper mentioned above, summarizes the main camera models used for perspective cameras (narrow and wide-angle), and fisheye cameras, describing the various distortion parameters involved. It provides results on the calibration of a wide-angle camera setup and a fisheye lens setup, comparing the use of various distortion models. Furthermore, it describes the use of homography for perspective transformations between a camera view and a virtual camera view. The main goal of this paper is to provide, in a single document, an overview on monocular camera calibration and bids-eye view perspective transformation, serving as a starting point for researchers starting to work with monocular vision.
 
 ## Calibration Results
+\begin{description}
+    \item [\textit{Standard} (ST)] the standard model has 5 parameters for radial and tangential distortion,  {\footnotesize${ST_{par}=\{K_{par},k_1, k_2, k_3, p_1, p_2\}}$};
+    \item[\textit{Rational} (RAT)] this model includes 3 additional radial distortion parameters, 
+     {\footnotesize${RAT_{par}=\{K_{par},ST_{par},k_4,k_5,k_6\}}$};
+    \item[\textit{Thin Prism} (THP)] this model includes 4 thin prism distortion parameters, 
+     {\footnotesize${THP_{par}=\{K_{par},ST_{par},s_1,s_2,s_3,s_4\}}$};
+    \item[\textit{Tilted} (TIL)] the two parameters modeling the lens tilting (rotating) around $x$ and $y$ are also included,  {\footnotesize${TIL_{par}=\{K_{par},ST_{par},\tau_x,\tau_y\}}$}; 
+    \item[\textit{Complete} (CMP)] this model includes all mentioned parameters for perspective cameras, {\footnotesize ${CMP_{par}=\{K_{par},ST_{par},k_4, k_5,k_6,s_1,s_2,s_3,s_4,\tau_x,\tau_y\}}$}
+    \item[\textit{Fisheye} (FEY)] this model is specific for fisheye lenses, {\footnotesize ${FEY_{par}=\{K_{par},q_1,q_2,q_3,q_4\}}$}
+\end{description}
+
 
 ### Wide-angle Lens Example
 Distorted             |  Undistorted
