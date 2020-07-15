@@ -5,13 +5,14 @@ To start, you must open the [Calibration&BirdsEyeView](https://github.com/ipleir
 ![Alt text](https://colab.research.google.com/assets/colab-badge.svg) shown on top.
 
 ## Calibration algorithm
-The calibration algorithm approach the following models:
+The calibration algorithms approach the following models:
  * Standard Model
  * Rational Model
  * Thin Prism Model
  * Tilted Model
  * Fisheye Model
 
+Text..
 
 ### Wide-angle Lens Example
 Distorted             |  Undistorted
@@ -24,6 +25,8 @@ Distorted             |  Undistorted
 <img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/distorted_img.png">|<img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/undistorted_img.png">
 
 ## Homography Results
+Text....
+
 ### Birds-eye View Example
 Distorted             |  Undistorted
 :-------------------------:|:-------------------------:
