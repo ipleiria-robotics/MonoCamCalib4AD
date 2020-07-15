@@ -1,7 +1,8 @@
 # MonoCamCalib4AD
 This repository mirrors the NAME/URL paper, that summarizes the main camera models used for perspective cameras (narrow and wide-angle), and fisheye cameras, describing the various distortion parameters involved. It provides results on the calibration of a wide-angle camera setup and a fisheye lens setup, comparing the use of various distortion models. Furthermore, it describes the use of homography for perspective transformations between a camera view and a virtual camera view. The main goal of this paper is to provide, in a single document, an overview on monocular camera calibration and bids-eye view perspective transformation, serving as a starting point for researchers starting to work with monocular vision.
 Here, it is available all the algorithms used throughout the document, through a Jupyter notebooks using OpenCV 4.1.1, so one can easily experiment and run then without any further installations.
-**To start, you must open the [Calibration&BirdsEyeView](https://github.com/ipleiria-robotics/MonoCamCalib4AD/blob/master/Calibration&BirdsEyeView.ipynb) file and and go to 
+
+**GETTING START, you should open the [Calibration&BirdsEyeView](https://github.com/ipleiria-robotics/MonoCamCalib4AD/blob/master/Calibration&BirdsEyeView.ipynb) file and and go to 
 ![Alt text](https://colab.research.google.com/assets/colab-badge.svg) shown on top.**
 
 ## Calibration algorithm
