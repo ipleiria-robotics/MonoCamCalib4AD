@@ -10,7 +10,7 @@ The paper mentioned above, summarizes the main camera models used for perspectiv
 ### Wide-angle Lens Example
 Distorted             |  Undistorted
 :-------------------------:|:-------------------------:
-<img align="left" width="640" height="480" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/1.7mm_original.png">|<img align="left" width="640" height="480" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/1.7mm_undistorted.png">
+<img align="left" width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/1.7mm_original.png">|<img align="left" width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/1.7mm_undistorted.png">
 
 ### Fisheye Lens Example
 Distorted             |  Undistorted
