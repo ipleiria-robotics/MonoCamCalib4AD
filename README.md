@@ -7,11 +7,11 @@ Here, it is available all the algorithms used throughout the document, through a
 
 ## Calibration algorithm
 *A camera consists mainly of a planar optical sensor and a lens, together with the electronics needed to obtain thedigital image of the scene projected onto the optical sensor. Camera images exhibit distortion due to the lens characteristics and production defects. The most common distortion effects are the radial distortion, tangential distortion and the thin prism distortion, which affect the captured point coordinates and can be rectified using this calibration algorithms approaching the following models:*
- * *Standard Model
- * *Rational Model
- * *Thin Prism Model
- * *Tilted Model
- * *Fisheye Model
+ * *Standard Model*
+ * *Rational Model*
+ * *Thin Prism Model*
+ * *Tilted Model*
+ * *Fisheye Model*
  
 
 ### Wide-angle Lens Example
