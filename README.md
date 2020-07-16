@@ -6,7 +6,7 @@ Here, it is available all the algorithms used throughout the document, through a
 ![Alt text](https://colab.research.google.com/assets/colab-badge.svg) shown on top.**
 
 ## Calibration algorithm
-A camera consists mainly of a planar optical sensor and a lens, together with the electronics needed to obtain thedigital image of the scene projected onto the optical sensor. Camera images exhibit distortion due to the lens characteristics and production defects. The most common distortion effects are the radial distortion, tangential distortion and the thin prism distortion, which affect the captured point coordinates and can be rectified using this calibration algorithms approaching the following models:
+> A camera consists mainly of a planar optical sensor and a lens, together with the electronics needed to obtain thedigital image of the scene projected onto the optical sensor. Camera images exhibit distortion due to the lens characteristics and production defects. The most common distortion effects are the radial distortion, tangential distortion and the thin prism distortion, which affect the captured point coordinates and can be rectified using this calibration algorithms approaching the following models:
  * Standard Model
  * Rational Model
  * Thin Prism Model
@@ -24,7 +24,7 @@ Distorted             |  Undistorted
 <img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/distorted_img.png">|<img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/undistorted_img.png">
 
 ## Homography Results
-The homography relates the transformation between two world planes defined on a common reference frame. For autonomous driving, our reference plane is the ground plane. By placing a planar chessboard in front of the robot and in view of the (previously calibrated) camera, one can use the same techniques to estimate the camera pose with respect to the chessboard on the floor, that is, the extrinsic parameters (or the inverse, the chessboard pose with respect to the camera).
+>The homography relates the transformation between two world planes defined on a common reference frame. For autonomous driving, our reference plane is the ground plane. By placing a planar chessboard in front of the robot and in view of the (previously calibrated) camera, one can use the same techniques to estimate the camera pose with respect to the chessboard on the floor, that is, the extrinsic parameters (or the inverse, the chessboard pose with respect to the camera).
 
 ### Birds-eye View Example
 Distorted             |  Undistorted
@@ -32,4 +32,4 @@ Distorted             |  Undistorted
 <img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/undistorted.png">|<img width="320" height="240" src="https://github.com/PedroMartins95/Calibration-BirdsEyeView4FisheyeLens/blob/master/chessboard.png">
 
 # Conclusions
-The results presented show that it is important to fit the distortion model used for each specific combination of camera and lens, given that some lens and distortion models, although more complete, may be unsuitable for the setup at hand. Beware that this is a very low cost system, with low cost lenses, thus the imperfections that are seen in the borders of the image, which can not be corrected by these models.
+>The results presented show that it is important to fit the distortion model used for each specific combination of camera and lens, given that some lens and distortion models, although more complete, may be unsuitable for the setup at hand. Beware that this is a very low cost system, with low cost lenses, thus the imperfections that are seen in the borders of the image, which can not be corrected by these models.
