@@ -14,7 +14,7 @@ This repository provides all the algorithms used throughout the document, using 
  * *Tilted Model*
  * *Fisheye Model*
  
-Below you can see some of the results that can be obtained throgh the application of the calibration results to remove the image distortion. 
+Below you can see some of the results that can be obtained through the application of the calibration results to remove the image distortion. 
 
 ### Wide-angle Lens Example
 Distorted             |  Undistorted
