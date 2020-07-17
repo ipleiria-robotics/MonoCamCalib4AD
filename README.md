@@ -1,5 +1,5 @@
 # MonoCamCalib4AD
-*Note: an improved version is expected to come online, with references to a paper under review, as soon as we receive the submission review.*
+*Note: an improved version is be made come online, with references to a paper under review, as soon as we receive the submission feedback.*
 
 This repository mirrors the [Monocular Camera Calibration for Autonomous Driving — a comparative study](https://ieeexplore.ieee.org/document/9096104) paper, which summarizes the main camera models used for perspective cameras (narrow and wide-angle), and fisheye cameras, describing the various distortion parameters involved. It demonstrates the  calibration of a wide-angle camera setup and a fisheye lens setup, comparing the use of various distortion models. Furthermore, it describes the use of homography for perspective transformations between a camera view and a virtual camera view. The main goal of this demo is to provide, together with the cited document, an overview on monocular camera calibration and bids-eye view perspective transformation, serving as a starting point for researchers starting to work with monocular vision, paricularly for autonomous driving.
 This repository provides all the algorithms used throughout the document, using a Jupyter notebook and OpenCV 4.1.1, so one can easily experiment and run then without any further installations.
