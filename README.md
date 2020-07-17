@@ -13,6 +13,7 @@ This repository provides all the algorithms used throughout the document, using 
  * *Thin Prism Model*
  * *Tilted Model*
  * *Fisheye Model*
+ 
 Below you can see some of the results that can be obtained throgh the application of the calibration results to remove the image distortion. 
 
 ### Wide-angle Lens Example
